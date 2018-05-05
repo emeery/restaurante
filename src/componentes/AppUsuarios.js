@@ -10,7 +10,7 @@ class AppUsuarios extends React.Component {
             telefono:'',
             estado:''  ,
             direccion:''
-
+            
         }
     }
     componentDidMount() {
@@ -30,7 +30,7 @@ class AppUsuarios extends React.Component {
         
         return(<div className='usuarios-contenedor'>
             
-            <h2>Lista de Usuarios</h2>
+            <h2>Lista de Restaurantes</h2>
             <ListaContacto
             nombre={this.state.nombre}
             usuarios={this.state.usuarios}
@@ -75,7 +75,9 @@ const Contacto = (props) => (
             <p> tel: <span
             > {props.telefono} </span></p> 
             
-            
+            <button
+            className='usuario-boton'
+            > ubicación </button>
 
         </div>
     </div>

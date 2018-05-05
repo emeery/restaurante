@@ -1,3 +1,4 @@
+// AppUsuarios
 .usuarios-contenedor {
     border-width: 5px;
     border-style: solid;
@@ -12,9 +13,10 @@
         font-family: $anton;
     }
 }
+// Contacto
 .usuario-contenedor{
     text-align: center;
-    width: 50rem;
+    width: 60rem;
     border-width: 1px;
     border-style: solid;
     border-color: lightcyan;
@@ -51,5 +53,22 @@
         color:rgb(188, 255, 188);
         font-size: 2rem;
     }
-
+}
+.usuario-boton {
+    background-color: $mora; 
+    font-family: $anton;
+    border:none;
+    border-bottom: .6rem solid darken($purpura, 10%);
+    color:white; 
+    font-weight: bold;
+    margin-bottom: $talla-m;
+    font-size: $talla-l;
+    padding: 2rem;
+    width: 18rem;
+}
+.usuario-boton:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
