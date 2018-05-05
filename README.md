@@ -1,2 +1,2 @@
-## Grandes decisiones
-# toma las decisiones por ti.
+## Restaurantes
+# encuentra tu restaurante ideal.
