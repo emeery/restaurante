@@ -3,40 +3,58 @@ $negro: #20222b;
 $sandia: #fc6c85;
 $mora: #a5af;
 $purpura: #8357c6;
-$agua: #6cfce3;
+$agua: #d3f8de;
 $azul-cielo: #464b5e;
 $azul-marino: #333745;
 $azul: #3c4251;
 $blanco: #a5afd7;
+$esmeralda: #009D71;
+$dark-cyan:#218D9B;
 // espaciado
 $talla-xs: .6rem;
 $talla-s: 1.2rem;
 $talla-m: 1.6rem;
 $talla-l: 3.2rem;
 $talla-xl: 4.8rem;
+
+// breakpoints
 $escritorio-breakpoint: 45rem;
+
 // fuentes
-$yanone: Yanone Kaffeesatz, sans-serif; 
-$lobster: Lobster, cursive; 
-$pacifico: Pacifico, cursive;
-$roboto: Roboto, sans-serif; $oswald: Oswald, sans-serif; 
-$dosis: Dosis, sans-serif; 
-$allan: Allan, cursive; 
-$anton: Anton, sans-serif;
+$yanone: Yanone Kaffeesatz, regular; 
+$lobster: Lobster, regular; 
+$pacifico: Pacifico, regular;
+$roboto: Roboto, regular; 
+$oswald: Oswald, regular, light, extra-light; 
+$dosis: Dosis, regular; 
+$allan: Allan, regular; 
+$anton: Anton, regular;
+$trocchi: Trocchi, regular;
+$snippet: Snippet, regular; 
+$antiqua: Glass Antiqua, regular;
+$luckiest: Luckiest Guy, regular;
+$right: Righteous, regular;
+$archivo: Archivo Narrow, regular;
+$lato: Lato, light;
+
+@import url('//fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('//fonts.googleapis.com/css?family=Righteous');
+@import url('//fonts.googleapis.com/css?family=Trocchi');
+@import url('//fonts.googleapis.com/css?family=Anton');
+@import url('//fonts.googleapis.com/css?family=Lato:100');
+@import url('//fonts.googleapis.com/css?family=Lobster');
+@import url('//fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('//fonts.googleapis.com/css?family=Pacifico');
+@import url('//fonts.googleapis.com/css?family=Snippet');
+@import url('//fonts.googleapis.com/css?family=Sarina');
+@import url('//fonts.googleapis.com/css?family=Oswald');
+@import url('//fonts.googleapis.com/css?family=Dosis');
+@import url('//fonts.googleapis.com/css?family=Indie+Flower');
+@import url('//fonts.googleapis.com/css?family=Glass+Antiqua');
+@import url('//fonts.googleapis.com/css?family=Luckiest+Guy');
+
+
+// &nbsp; - espacio
 
 
 
-
-
-
-
-
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Anton');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Dosis|Glass+Antiqua');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@import url('https://fonts.googleapis.com/css?family=Lobster|Yanone+Kaffeesatz|Pacifico|Snippet|Anton|Oswald|Sarina');
-@import url('https://fonts.googleapis.com/css?family=Roboto');

@@ -1,0 +1,67 @@
+
+.cabecera-nota {
+    color:whitesmoke; 
+    background:$negro; 
+    padding: $talla-s 0;
+    margin-bottom: $talla-l;
+    height: 35rem;
+    //background-image: url(./../imagenes/beach.jpg);
+    background-position: center;
+    //position: absolute;
+}    
+.cabecera__info {
+    text-align: center;
+    padding-top: 15rem;
+    
+}
+
+.cabecera__titulo {
+    font-size: $talla-xl; 
+    color: #e59866; 
+    font-family: $oswald;
+    margin: 0px; 
+}
+hr {
+    width: 150px;
+    //text-align: left;
+    padding-left: 50px;
+    //margin-top: 3px;
+    margin: auto;
+    float: center;
+    border: 0; 
+    height: 2px;
+    background: turquoise;
+    //background-image: linear-gradient(to right, #ccc, salmon, #ccc);
+}
+// .dot {
+//     height: 50px;
+//     width: 50px;
+//     background-color: #bbb;
+//     border-radius: 50%;
+//     display: inline-block;
+//   }
+.fa-utensils { 
+    color: lightblue;
+    margin-top: 5rem;
+    cursor: pointer;
+    &:hover {color: lightgreen; }
+}
+.nav-link {
+    color: cadetblue;
+    outline: none;
+    font-family: $dosis;
+    font-size: 2rem;
+    text-align: center;
+}
+.espacio-cabecera {
+    margin-top: 2rem;
+    background-color: rosybrown;
+    
+}
+.cabecera-parallax {
+    height: 500px;
+}
+
+@media (min-width: $escritorio-breakpoint) {
+    .cabecera-nota {margin-bottom: $talla-xl;}
+}
