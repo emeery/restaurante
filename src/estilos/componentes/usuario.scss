@@ -1,22 +1,21 @@
-// AppUsuarios
 .usuarios-contenedor {
+    text-align: center;
     border-width: 5px;
     border-style: solid;
     border-color:   #2c3e50;
     padding-top: 10rem;
     background-color: $negro;
     color: whitesmoke;   
-    text-align: center;
+    // text-align: center;
     h2{
         text-align: center;
         color: lightblue;
         font-family: $anton;
     }
 }
-// Contacto
 .usuario-contenedor{
     text-align: center;
-    width: 60rem;
+    width: 50rem;
     border-width: 1px;
     border-style: solid;
     border-color: lightcyan;
@@ -50,25 +49,14 @@
         &:hover {color: lightgreen; }
     }
     span {
-        color:rgb(188, 255, 188);
+        color:rgb(29, 51, 29);
         font-size: 2rem;
     }
 }
-.usuario-boton {
-    background-color: $mora; 
-    font-family: $anton;
-    border:none;
-    border-bottom: .6rem solid darken($purpura, 10%);
-    color:white; 
-    font-weight: bold;
-    margin-bottom: $talla-m;
-    font-size: $talla-l;
-    padding: 2rem;
-    width: 18rem;
-}
-.usuario-boton:active {
-    top: 1px;
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.fa-facebook-f {
+    cursor: pointer;
+    height: 1em;
+    width: 3em;
+    background-color:royalblue;
+    color:whitesmoke;
 }
