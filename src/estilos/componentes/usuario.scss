@@ -27,6 +27,16 @@
         color:lightsalmon;
         font-size: 4rem;    
     }
+    hr{
+        width: 150px;
+        padding-left: 50px;
+        text-align: center;
+        margin: auto;
+        float: center;
+        border: 0; 
+        height: 2px;
+        background:darkorange;  
+    }
 }
 .usuario-contenedor__contacto {
     h5 {
@@ -52,6 +62,11 @@
         color:rgb(29, 51, 29);
         font-size: 2rem;
     }
+}
+.intelimetrica {
+    font-family: $anton;
+    color: lightcoral;
+    font-size: $talla-m;
 }
 .fa-facebook-f {
     cursor: pointer;

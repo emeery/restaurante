@@ -5,8 +5,7 @@ import material from '../imagenes/material.jpg';
 import dinner from '../imagenes/dinner.png';
 import { Parallax, Background } from 'react-parallax';
 import {Tooltip} from 'react-tippy';
-//import Nav from './Nav';
-// <Nav/>
+
 const Cabecera = (props) => (
   <div>
     <Parallax 
@@ -14,7 +13,8 @@ const Cabecera = (props) => (
       className='cabecera-parallax'
     >
         
-        <div className='cabecera__info' >
+        <div 
+        className='cabecera__info' >
           
             <h1 className='cabecera__titulo'
               > { props.titulo } </h1> 
@@ -23,6 +23,9 @@ const Cabecera = (props) => (
                   <hr></hr>
           </Fade>
           
+          <p
+          className='intelimetrica'
+          >{props.subtitulo}</p>
          
             
           

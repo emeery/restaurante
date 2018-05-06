@@ -6,20 +6,26 @@ import Contacto from '../componentes/Contacto';
 import AppUsuarios from '../componentes/AppUsuarios';
 import PaginaNoEncontrada from '../componentes/PaginaNoEncontrada';
 import Portafolio from '../componentes/Portafolio';
-import PortafolioItem from '../componentes/PortafolioItem' // COMPONENTE HIJO
+import PortafolioItem from '../componentes/PortafolioItem' 
+
+
 const AppRouter = () => (
     <BrowserRouter>
     <div>
             <Cabecera
-            titulo='Restaurantes'/>
+            titulo='Restaurantes'
+            subtitulo='Intelimetrica'
+            />
         <Switch>
             <Route path="/" component={AppUsuarios} exact={true} />
-            <Route path="/portafolio" component={Portafolio} exact={true} />
-            <Route path="/portafolio/:id" component={PortafolioItem}/>
-            <Route path="/contacto" component={Contacto} />
-            <Route component={PaginaNoEncontrada} />
+            
         </Switch>
     </div>
     </BrowserRouter>
 ); 
 export default AppRouter;
+
+// <Route path="/portafolio" component={Portafolio} exact={true} />
+//             <Route path="/portafolio/:id" component={PortafolioItem}/>
+//             <Route path="/contacto" component={Contacto} />
+//             <Route component={PaginaNoEncontrada} />
