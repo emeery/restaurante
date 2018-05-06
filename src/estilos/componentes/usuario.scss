@@ -1,12 +1,13 @@
 .usuarios-contenedor {
     text-align: center;
+    width: 100%;
     border-width: 5px;
     border-style: solid;
     border-color:   #2c3e50;
     padding-top: 10rem;
     background-color: $negro;
     color: whitesmoke;   
-    // text-align: center;
+    word-wrap: break-word;
     h2{
         text-align: center;
         color: lightblue;
@@ -39,6 +40,7 @@
     }
 }
 .usuario-contenedor__contacto {
+    word-wrap: break-word;
     h5 {
         color:$mora;
         font-size: $talla-l;
