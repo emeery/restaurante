@@ -36,7 +36,16 @@ class AppUsuarios extends React.Component {
         
         return(<div className='usuarios-contenedor'>
             
-            <h2>Lista de Usuarios</h2>
+            <h2><p>
+            Lista de Usuarios - <a  
+            
+            href="https://github.com/emeery/restaurante"
+            target="_blank" 
+            aria-hidden="true">
+            <i className="fab fa-github fa-1x"></i></a>
+            &nbsp;
+            </p>
+            </h2>
             
             <center>
                 <ListaContacto
