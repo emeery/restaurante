@@ -27,7 +27,24 @@ class AppUsuarios extends React.Component {
         .then(res => res.json() )
         .then((data) => 
         {
-            console.log(data)    
+            var mapeo = data.map(function(eldato, i) {
+                
+                var minusculas = eldato.name.toLowerCase();
+
+                return { index: i, nombre: minusculas }
+            })
+            
+            var orden = mapeo.sort((a,b) => {
+                if(a.nombre > b.nombre) {
+                    return 1;
+                }
+                if (a.nombre < b.nombre) {
+                    return 0;
+                }
+                return 0;
+            });
+            console.log(orden);
+
             this.setState({usuarios:data})
         })
     }
