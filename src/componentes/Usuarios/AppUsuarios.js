@@ -1,13 +1,14 @@
 import React from 'react';
-import ListaContacto from '../componentes/ListaContacto';
+import Cabecera from './Cabecera';
 
-// https://momentumdash.com/
+import ListaContacto from './ListaContacto';
+
 
 class AppUsuarios extends React.Component {
     constructor() {
         super();
         this.state={
-            usuarios:[],
+            usuarios:[] ,
             nombre:''   ,
             sitio:''    ,
             telefono:'' ,
@@ -43,14 +44,18 @@ class AppUsuarios extends React.Component {
                 }
                 return 0;
             });
-            console.log(orden);
+             
+            //console.log(orden);
 
             this.setState({usuarios:data})
         })
     }
     render(){
         return(<div className='usuarios-contenedor'>
-            
+                <Cabecera
+                titulo='Restaurantes'
+                
+                />
             <h2>
             <p>Lista de Usuarios</p> 
             <hr/>

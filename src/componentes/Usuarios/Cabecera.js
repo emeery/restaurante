@@ -1,8 +1,8 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import {Fade, Zoom, Rotate} from 'react-reveal';
-import material from '../imagenes/material.jpg';
-import dinner from '../imagenes/dinner.png';
+import material from '../../imagenes/material.jpg';
+import dinner from '../../imagenes/dinner.png';
 import { Parallax, Background } from 'react-parallax';
 import {Tooltip} from 'react-tippy';
 

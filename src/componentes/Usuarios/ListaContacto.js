@@ -1,5 +1,5 @@
 import React from 'react';
-import Contacto from '../componentes/Contacto';
+import Contacto from './Contacto';
 const ListaContacto = (props) => (
     <div>
         {

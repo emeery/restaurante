@@ -1,4 +1,4 @@
-## Restaurantes - Test Front-End, Intelimetrica
+## Restaurantes - Test Front-End, 
 # encuentra tu restaurante ideal.
 
 https://unrestaurante.herokuapp.com/
